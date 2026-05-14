@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Users, Code, Shield, Heart, Zap } from 'lucide-react';
+import { Users, Code, Database, Bot, Palette } from 'lucide-react';
 
 const Community = () => {
   const clubs = [
-    { name: "CodeX", icon: Code, desc: "Competitive coding and open source contributions.", color: "cyber-blue" },
-    { name: "CyberDefenders", icon: Shield, desc: "Ethical hacking and network security workshops.", color: "purple-500" },
-    { name: "Women in Tech", icon: Heart, desc: "Empowering female engineers through mentorship.", color: "pink-500" },
-    { name: "AI Innovators", icon: Zap, desc: "Exploring neural networks and machine learning.", color: "cyber-green" }
+    { name: "Data Geeks", icon: Database, desc: "Data science, analytics and visualization.", color: "purple-500" },
+    { name: "Robotics", icon: Bot, desc: "Building the hardware and automation of the future.", color: "cyber-green" },
+    { name: "Coders", icon: Code, desc: "Competitive programming and software development.", color: "cyber-blue" },
+    { name: "Kalakrithi", icon: Palette, desc: "Arts, culture and creative expression.", color: "pink-500" }
   ];
 
   return (
