@@ -13,15 +13,7 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="text-center max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyber-green/30 bg-cyber-green/10 text-cyber-green text-sm font-cyber mb-8"
-          >
-            <span className="w-2 h-2 rounded-full bg-cyber-green animate-pulse-glow"></span>
-            SYSTEM.INIT() // STANLEY.AIDS.PORTAL
-          </motion.div>
+
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
