@@ -52,21 +52,21 @@ const FacultyCard = ({ name, role, spec, exp, image, linkedin, email }) => {
 const Faculty = () => {
   const teachingStaff = [
     { name: "Dr. K. Vaidehi", role: "Professor & HoD", spec: "M.E Ph.D", exp: "19 Years", image: "https://static.wixstatic.com/media/d15c6e_232b1b1b59b14459b727cab5c1119ba4~mv2.jpg/v1/crop/x_0,y_200,w_1200,h_1200/fill/w_718,h_718,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/AI%26DS%20department%20HoD.jpg", linkedin: "#", email: "hod.aids@stanley.edu.in" },
-    { name: "Dr. G.V.S. Raju", role: "Professor & TPO", spec: "M.Tech Ph.D", exp: "21 Years", linkedin: "#", email: "raju@stanley.edu.in" },
-    { name: "Dr. Vijender Kumar Solanki", role: "Assoc. Professor", spec: "M.E Ph.D", exp: "16 Years", linkedin: "#", email: "vijender@stanley.edu.in" },
-    { name: "Dr. C Swapna", role: "Assoc. Professor", spec: "M.Tech. Ph.D", exp: "13 Years", linkedin: "#", email: "swapna@stanley.edu.in" },
-    { name: "Asma Begum", role: "Asst. Professor", spec: "M.Tech (Ph.D)", exp: "15 Years", linkedin: "#", email: "asma@stanley.edu.in" },
-    { name: "R. Sirisha", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "6 Years", linkedin: "#", email: "sirisha@stanley.edu.in" },
-    { name: "Nadia Anjum", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "6 Years", linkedin: "#", email: "nadia@stanley.edu.in" },
-    { name: "Sumera", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "6 Years", linkedin: "#", email: "sumera@stanley.edu.in" },
-    { name: "S. Sandhya Rani", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "4 Years", linkedin: "#", email: "sandhya@stanley.edu.in" },
-    { name: "Nandita Manvar", role: "Asst. Professor", spec: "M.Tech.", exp: "4 Years", linkedin: "#", email: "nandita@stanley.edu.in" },
-    { name: "Juveriya Talath", role: "Asst. Professor", spec: "M.E (Ph.D)", exp: "4 Years", linkedin: "#", email: "juveriya@stanley.edu.in" },
-    { name: "Arjuman Subhani", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "4 Years", linkedin: "#", email: "arjuman@stanley.edu.in" },
-    { name: "Nasira Mahajbeen", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "8 Years", linkedin: "#", email: "nasira@stanley.edu.in" },
-    { name: "Neha Tanveer", role: "Asst. Professor", spec: "M.Tech.", exp: "4 Years", linkedin: "#", email: "neha@stanley.edu.in" },
-    { name: "Ayesha Sarwat", role: "Asst. Professor", spec: "M.Tech.", exp: "2 Years", linkedin: "#", email: "ayesha@stanley.edu.in" },
-    { name: "Kuppam Sameera", role: "Asst. Professor", spec: "B.Tech M.Tech", exp: "5 Years", linkedin: "#", email: "sameera@stanley.edu.in" }
+    { name: "Dr. G.V.S. Raju", role: "Professor & TPO", spec: "M.Tech Ph.D", exp: "21 Years", image: "/faculty/raju.png", linkedin: "#", email: "raju@stanley.edu.in" },
+    { name: "Dr. Vijender Kumar Solanki", role: "Assoc. Professor", spec: "M.E Ph.D", exp: "16 Years", image: "/faculty/vijender.png", linkedin: "#", email: "vijender@stanley.edu.in" },
+    { name: "Dr. C Swapna", role: "Assoc. Professor", spec: "M.Tech. Ph.D", exp: "13 Years", image: "/faculty/swapna.png", linkedin: "#", email: "swapna@stanley.edu.in" },
+    { name: "Asma Begum", role: "Asst. Professor", spec: "M.Tech (Ph.D)", exp: "15 Years", image: "/faculty/asma.png", linkedin: "#", email: "asma@stanley.edu.in" },
+    { name: "R. Sirisha", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "6 Years", image: "/faculty/sirisha.png", linkedin: "#", email: "sirisha@stanley.edu.in" },
+    { name: "Nadia Anjum", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "6 Years", image: "/faculty/nadia.png", linkedin: "#", email: "nadia@stanley.edu.in" },
+    { name: "Sumera", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "6 Years", image: "/faculty/sumera.png", linkedin: "#", email: "sumera@stanley.edu.in" },
+    { name: "S. Sandhya Rani", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "4 Years", image: "/faculty/sandhya.png", linkedin: "#", email: "sandhya@stanley.edu.in" },
+    { name: "Nandita Manvar", role: "Asst. Professor", spec: "M.Tech.", exp: "4 Years", image: "/faculty/nandita.png", linkedin: "#", email: "nandita@stanley.edu.in" },
+    { name: "Juveriya Talath", role: "Asst. Professor", spec: "M.E (Ph.D)", exp: "4 Years", image: "/faculty/juveriya.png", linkedin: "#", email: "juveriya@stanley.edu.in" },
+    { name: "Arjuman Subhani", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "4 Years", image: "/faculty/arjuman.png", linkedin: "#", email: "arjuman@stanley.edu.in" },
+    { name: "Nasira Mahajbeen", role: "Asst. Professor", spec: "M.Tech. (Ph.D)", exp: "8 Years", image: "/faculty/nasira.png", linkedin: "#", email: "nasira@stanley.edu.in" },
+    { name: "Neha Tanveer", role: "Asst. Professor", spec: "M.Tech.", exp: "4 Years", image: "/faculty/neha.png", linkedin: "#", email: "neha@stanley.edu.in" },
+    { name: "Ayesha Sarwat", role: "Asst. Professor", spec: "M.Tech.", exp: "2 Years", image: "/faculty/ayesha.png", linkedin: "#", email: "ayesha@stanley.edu.in" },
+    { name: "Kuppam Sameera", role: "Asst. Professor", spec: "B.Tech M.Tech", exp: "5 Years", image: "/faculty/kuppam.png", linkedin: "#", email: "sameera@stanley.edu.in" }
   ];
 
   const technicalStaff = [
